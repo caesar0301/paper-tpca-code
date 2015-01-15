@@ -1,0 +1,6 @@
+This is a R project to facilitate Bayesian analysis and drawings to submit paper:
+
+    W. Gong, "Trajectory Pattern Change Analysis in Campus WiFi networks", MobiGIS'2013.
+
+Scripts in this project utilize some output of PatternExtraction project in java.
+

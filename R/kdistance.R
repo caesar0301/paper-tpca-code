@@ -1,0 +1,10 @@
+dist2 <- read.table(file="./distancegraph2")
+dist2 <- sort(dist2$V1, decreasing=TRUE)
+dist3 <- read.table(file="./distancegraph3")
+dist3 <- sort(dist3$V1, decreasing=TRUE)
+dist4 <- read.table(file="./distancegraph4")
+dist4 <- sort(dist4$V1, decreasing=TRUE)
+
+plot(dist2)
+points(dist3, add=TRUE, col="red")
+points(dist4, add=TRUE, col="green")
